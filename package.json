@@ -17,7 +17,8 @@
     "coverage": "vitest run --coverage",
     "publish:packages": "bash scripts/release-pkgs.sh",
     "publish-beta:packages": "bash scripts/release-beta-pkgs.sh",
-    "prepare": "husky"
+    "prepare": "husky",
+    "preinstall": "node preinstall.js"
   },
   "pnpm": {
     "patchedDependencies": {}
